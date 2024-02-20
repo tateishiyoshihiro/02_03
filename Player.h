@@ -1,9 +1,8 @@
 #pragma once
-#include "Base.h"
-class player : public Base
+#include "Run.h"
+class player : public Run
 {
 public:
 	player();
 	~player();
-	void Born() override;
 };

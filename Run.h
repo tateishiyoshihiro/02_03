@@ -1,11 +1,10 @@
 #pragma once
 #include<stdio.h>
-class Base
+class Run
 {
 public:
-	Base();
-	virtual ~Base();
-	virtual void Born();
+	Run();
+	virtual ~Run();
 protected:
 	const char* name_;
 };
